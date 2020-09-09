@@ -129,7 +129,7 @@ def count_eggs( list ):
 
 print(count_eggs(chickens))
 
-#class homework runthrough notes
+#class homework review notes
 
 register = []
 
