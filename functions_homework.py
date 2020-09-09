@@ -17,14 +17,17 @@
 def greet():
     print("Hey")
 
+
 #calling a function
 
 greet()
+
 
 #returning a value from a function
 
 def greet():
     return "Hey"
+
 
 greeting = greet()
 print(greeting)
@@ -35,6 +38,7 @@ print(greeting)
 def greet():
     print("Hey")
 
+
 greeting = greet()
 print(greeting)
 
@@ -43,6 +47,7 @@ print(greeting)
     
 def greet(name):
     return "Hey " + name
+
 
 greeting = greet("Bob")
 print(greeting)
@@ -56,6 +61,7 @@ print(greeting)
 def greet(name, time_of_day):
     return "Good " + time_of_day + ", " + name
 
+
 greeting = greet("Bob", "morning")
 print(greeting)
 
@@ -64,6 +70,7 @@ print(greeting)
 
 def greet(name, time_of_day):
   return "Good " + time_of_day + ", " + name
+
 
 name_1 = "Bob"
 time_of_day_1 = "morning"
@@ -118,5 +125,6 @@ def count_eggs( list ):
         bird["eggs"] = 0 # eggs have been collected
 
     return f"{total_eggs} eggs collected"
+
 
 print(count_eggs(chickens))
