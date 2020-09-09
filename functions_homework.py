@@ -7,8 +7,8 @@
     # 2 - perform some logic and send back a result
 
 #why do we use functions?
-    # - organisation
-    # - re-usability (DRY - Dont Repeat Yourself)
+    # - organization
+    # - re-usability (DRY - Don't Repeat Yourself)
     # - abstraction
     # - encapsulation
 
