@@ -128,3 +128,15 @@ def count_eggs( list ):
 
 
 print(count_eggs(chickens))
+
+#class homework runthrough notes
+
+register = []
+
+def sign_up(name):
+    register.append(name)
+    return f"Well done, {name} has been added to the list."
+
+
+print(sign_up("Malcolm"))
+print(register)
